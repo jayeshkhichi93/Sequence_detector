@@ -25,8 +25,8 @@ This repository contains the RTL (Register Transfer Level) design and testbench 
 * **Waveform Viewer:** EPWave / GTKWave
 
 ## File Structure
-* `design.sv`: Contains the RTL code for the FSM logic and state transitions.
-* `testbench.sv`: Contains the test stimulus to verify the design functionality, including hierarchical referencing to monitor internal FSM states.
+* `sequence_detector.v`: Contains the RTL code for the FSM logic and state transitions.
+* `sequence_detector_tb.v`: Contains the test stimulus to verify the design functionality, including hierarchical referencing to monitor internal FSM states.
 
 ## Simulation Waveform
 ```
